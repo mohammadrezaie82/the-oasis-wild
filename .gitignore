@@ -1,0 +1,16 @@
+echo "
+# Ignore environment files
+.env.local
+
+# Ignore build output
+.next/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore lock files
+package-lock.json
+
+# Ignore photos (if necessary)
+photo in site/
+" > .gitignore
