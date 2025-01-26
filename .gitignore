@@ -13,4 +13,5 @@ package-lock.json
 
 # Ignore photos (if necessary)
 photo in site/
+
 " > .gitignore
