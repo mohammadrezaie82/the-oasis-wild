@@ -1,6 +1,11 @@
 # پروژه the-oasis-wild
 
 این یک پروژه [Next.js](https://nextjs.org/) است که با استفاده از [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) ساخته شده است.
+# Project Title
+
+Here is an image of the project:
+
+![Project Image](https://github.com/mohammadrezaie82/repository/blob/main/images/project-image.png)
 
 ## شروع به کار
 
