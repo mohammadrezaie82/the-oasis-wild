@@ -1,48 +1,48 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+# پروژه the-oasis-wild
 
-# the-oasis-wild
+این یک پروژه [Next.js](https://nextjs.org/) است که با استفاده از [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) ساخته شده است.
 
-=======
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## شروع به کار
 
-## Getting Started
+برای اجرای سرور توسعه، دستور زیر را اجرا کنید:
 
-First, run the development server:
-
-```bash
+````bash
 npm run dev
-# or
+# یا
 yarn dev
-# or
+# یا
 pnpm dev
-# or
+# یا
 bun dev
-```
+سپس مرورگر خود را باز کرده و به آدرس http://localhost:3000 بروید تا نتیجه را مشاهده کنید.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+شما می‌توانید با ویرایش فایل app/page.js شروع به ویرایش صفحه کنید. این صفحه به‌صورت خودکار پس از هر ویرایش به‌روزرسانی می‌شود.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+این پروژه از next/font استفاده می‌کند تا به صورت خودکار فونت Google Inter را بهینه‌سازی و بارگذاری کند.
+استقرار روی Vercel
+ساده‌ترین روش برای استقرار اپلیکیشن Next.js شما استفاده از پلتفرم Vercel است که توسط سازندگان Next.js ارائه شده است.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+برای اطلاعات بیشتر در مورد استقرار، مستندات استقرار Next.js را بررسی کنید.
 
-## Learn More
+markdown
+Copy
+Edit
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### توضیحات:
+1. **ترجمه کامل به فارسی**:
+   - تمامی بخش‌های README از انگلیسی به فارسی ترجمه شده است.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **حفظ ساختار اصلی**:
+   - ساختار کلی فایل دست‌نخورده باقی مانده است و متن فقط به فارسی تبدیل شده است.
 
-## Deploy on Vercel
+3. **آماده برای استفاده**:
+   - این فایل آماده است تا در مخزن گیت‌هاب شما قرار گیرد و فارسی‌زبانان به راحتی از آن استفاده کنند.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-> > > > > > > # e708ddb (Add .gitignore and track necessary files)
-
-# the-oasis-wild
-
-> > > > > > > d9c0b300312860fe694af8cb979eb21f78780559
+برای ذخیره و ثبت این تغییرات در گیت‌هاب:
+```bash
+git add README.md
+git commit -m "ترجمه فایل README به فارسی"
+git push
+````
