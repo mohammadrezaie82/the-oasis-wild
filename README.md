@@ -5,7 +5,8 @@
 
 Here is an image of the project:
 
-![Project Image](https://github.com/mohammadrezaie82/repository/the-oasis-wild.vercel.app_(1).png)
+![Project Image](https://github.com/mohammadrezaie82/the-oasis-vild/blob/main/the-oasis-wild.vercel.app_(1).png)
+
 
 ## شروع به کار
 
