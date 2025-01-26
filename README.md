@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 
-# the-oasis-vild
+# the-oasis-wild
 
 =======
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -43,6 +43,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 > > > > > > > # e708ddb (Add .gitignore and track necessary files)
 
-# the-oasis-vild
+# the-oasis-wild
 
 > > > > > > > d9c0b300312860fe694af8cb979eb21f78780559
