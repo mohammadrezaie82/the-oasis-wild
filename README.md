@@ -6,13 +6,9 @@
 
 این نسخه شامل توضیحات دقیق و ساختار مناسبی برای راه‌اندازی پروژه، استقرار، و منابع بیشتر است. همچنین برای افزودن تصویر از پروژه، کد زیر را برای تصویر در نظر بگیرید که به گیت‌هاب لینک داده شده است:
 
-<<<<<<< HEAD
-![Project Image](https://github.com/mohammadrezaie82/the-oasis-vild/blob/main/the-oasis-wild.vercel.app_(1).png)
-
-=======
 ````markdown
 ![Project Image](https://github.com/mohammadrezaie82/repository/blob/main/images/project-image.png)
->>>>>>> be6c0d1 (add new)
+be6c0d1 (add new)
 
 ## شروع به کار
 
