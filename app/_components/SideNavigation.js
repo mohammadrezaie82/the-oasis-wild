@@ -10,40 +10,37 @@ import SignOutButton from "./SignOutButton";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
-  {
-    name: "Home",
-    href: "/account",
-    icon: <HomeIcon className="h-5 w-5 text-primary-600" />,
-  },
+  { name: "Home", href: "/account", icon: HomeIcon },
   {
     name: "Reservations",
     href: "/account/reservations",
-    icon: <CalendarDaysIcon className="h-5 w-5 text-primary-600" />,
+    icon: CalendarDaysIcon,
   },
-  {
-    name: "Guest profile",
-    href: "/account/profile",
-    icon: <UserIcon className="h-5 w-5 text-primary-600" />,
-  },
+  { name: "My profile", href: "/account/profile", icon: UserIcon },
 ];
 
 function SideNavigation() {
   const pathname = usePathname();
 
   return (
-    <nav className="border-r border-primary-900">
-      <ul className="flex flex-col gap-2 h-full text-lg">
+    <nav className="border-r border-primary-900 p-2 w-12 sm:w-16 ">
+      <ul className="flex flex-col  items-center justify-center gap-4 mt-4 h-full">
         {navLinks.map((link) => (
-          <li key={link.name}>
+          <li key={link.name} className="relative group ">
             <Link
-              className={`py-3 px-5 hover:bg-primary-900 hover:text-primary-100 transition-colors flex items-center gap-4 font-semibold text-primary-200 ${
-                pathname === link.href ? "bg-primary-900" : ""
-              }`}
               href={link.href}
+              className={`p-2 sm:p-3 rounded-full hover:bg-primary-800 transition-colors flex items-center justify-center  ${
+                pathname === link.href
+                  ? "bg-primary-900 text-primary-100"
+                  : "text-primary-600"
+              }`}
             >
-              {link.icon}
-              <span>{link.name}</span>
+              <link.icon className="h-6 w-6" />
             </Link>
+
+            <span className="absolute left-8 top-1/4 -translate-y-1/2 bg-gray-900 text-white     text-xs sm:text-sm px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap z-50">
+              {link.name}
+            </span>
           </li>
         ))}
 
